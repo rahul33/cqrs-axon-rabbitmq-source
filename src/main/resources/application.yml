@@ -2,8 +2,8 @@ server:
   port: 9000
 spring:
   rabbitmq:
-    addresses: 192.168.1.153:5672
-    host: 192.168.1.153
+    addresses: localhost:5672
+    host: localhost
     port: 15672
     username: rabbitmq
     password: rabbitmq
